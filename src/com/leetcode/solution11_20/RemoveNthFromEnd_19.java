@@ -2,10 +2,8 @@ package com.leetcode.solution11_20;
 
 import com.leetcode.ListNode;
 
-import java.util.List;
-
 /**
- * 请输入类注释
+ * 删除链表的倒数第N个节点
  *
  * @author jianghanh
  * @date 2019-06-27 09:33
