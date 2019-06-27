@@ -2,6 +2,8 @@ package com.leetcode.solution11_20;
 
 import com.leetcode.ListNode;
 
+import java.util.List;
+
 /**
  * 请输入类注释
  *
@@ -10,7 +12,7 @@ import com.leetcode.ListNode;
  */
 public class RemoveNthFromEnd_19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        return twiceScan(head, n);
+        return OnceScan(head, n);
     }
 
     /**
@@ -36,5 +38,27 @@ public class RemoveNthFromEnd_19 {
             currentNode.next = currentNode.next.next;//去除尾节点
             return head;
         }
+    }
+
+    /**
+     * 方法2：一次扫描 快慢指针
+     */
+    private ListNode OnceScan(ListNode head, int n) {
+        ListNode slowNode = head;//初始化慢指针
+        ListNode fastNode = head;//初始化快指针
+        int count = 0;//计数器
+        while (count != n) {//移动快指针到使之离慢指针的间距位n
+            fastNode = fastNode.next;
+            count++;
+        }
+        if(fastNode==null){//当n = 链表长度时,即删除头节点
+            return head.next;
+        }
+        while(fastNode.next!=null){
+            slowNode = slowNode.next;
+            fastNode = fastNode.next;
+        }
+        slowNode.next = slowNode.next.next;
+        return head;
     }
 }
