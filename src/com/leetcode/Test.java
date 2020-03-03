@@ -1,7 +1,9 @@
 package com.leetcode;
 
-import com.leetcode.solution01_10.ZConvert_06;
-import com.leetcode.solution11_20.MostWater_11;
+import com.leetcode.solution21_30.DivideTwoIntegers_29;
+import com.leetcode.solution21_30.FindSubstring_30;
+import com.leetcode.solution21_30.StrStr_28;
+
 
 /**
  * 测试类
@@ -11,8 +13,7 @@ import com.leetcode.solution11_20.MostWater_11;
  */
 public class Test {
     public static void main(String[] args) {
-        int[] height = {1,8,6,2,5,4,8,3,7};
-        MostWater_11 mostWater_11 = new MostWater_11();
-        mostWater_11.maxArea(height);
+        FindSubstring_30 findSubstring_30 = new  FindSubstring_30();
+        findSubstring_30.findSubstring("barfoothefoobarman",new String[]{"foo","bar"});
     }
 }
