@@ -1,5 +1,7 @@
 package com.leetcode.Solution91_100;
 
+import com.leetcode.Solution1101_1110.TreeNode;
+
 /**
  * 验证二叉搜索树
  *
@@ -34,13 +36,4 @@ public class ValidateBinarySearchTree_98 {
     }
 }
 
-/**
- * Definition for a binary tree node.
- */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
 
