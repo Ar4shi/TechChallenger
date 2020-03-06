@@ -1,4 +1,4 @@
-package com.leetcode.Solution1101_1110;
+package com.leetcode;
 
 /**
  * 基本二叉树构造体

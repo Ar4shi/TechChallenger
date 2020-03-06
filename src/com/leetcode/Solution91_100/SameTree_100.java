@@ -1,6 +1,6 @@
 package com.leetcode.Solution91_100;
 
-import com.leetcode.Solution1101_1110.TreeNode;
+import com.leetcode.TreeNode;
 
 import java.util.Stack;
 
