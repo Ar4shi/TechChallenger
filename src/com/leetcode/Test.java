@@ -1,8 +1,6 @@
 package com.leetcode;
 
-import com.leetcode.solution21_30.DivideTwoIntegers_29;
-import com.leetcode.solution21_30.FindSubstring_30;
-import com.leetcode.solution21_30.StrStr_28;
+import com.leetcode.Solution01_100.solution21_30.FindSubstring_30;
 
 
 /**
