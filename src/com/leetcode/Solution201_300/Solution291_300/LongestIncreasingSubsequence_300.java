@@ -1,4 +1,4 @@
-package com.leetcode.Solution201_300;
+package com.leetcode.Solution201_300.Solution291_300;
 
 /**
  * 最长上升子序列
