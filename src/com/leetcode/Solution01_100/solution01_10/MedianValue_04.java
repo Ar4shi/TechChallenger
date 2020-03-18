@@ -8,6 +8,6 @@ package com.leetcode.Solution01_100.solution01_10;
  */
 public class MedianValue_04 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-return 1;
+        return 1;
     }
 }

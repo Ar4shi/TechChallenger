@@ -1,4 +1,4 @@
-package com.leetcode.Solution301_300.Solution331_340;
+package com.leetcode.Solution301_400.Solution331_340;
 
 /**
  * 请输入类注释
