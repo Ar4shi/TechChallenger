@@ -14,10 +14,14 @@ public class ThreadedBinaryTree {
         this.root = binaryTreeNode;
     }
 
+    public void threadedNode(){
+        this.threadedNode(root);
+    }
+
     /**
      * 中序遍历方式-线索化二叉树
      */
-    public void threadedNode(ThreadedBinaryTreeNode binaryTreeNode){
+    private void threadedNode(ThreadedBinaryTreeNode binaryTreeNode){
         if(binaryTreeNode==null){
             return;
         }
