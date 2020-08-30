@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 最长回文串
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-19 00:48
  */
 public class LongestPalindrome_409 {

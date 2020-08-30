@@ -3,7 +3,7 @@ package DataStructure.Tree.ThreadedBinaryTree;
 /**
  * 线索化二叉树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-10-09 15:56
  */
 public class ThreadedBinaryTree {

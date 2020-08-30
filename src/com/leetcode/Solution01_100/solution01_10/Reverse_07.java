@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * 整数反转
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-19 20:29
  */
 public class Reverse_07 {

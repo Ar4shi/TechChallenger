@@ -3,7 +3,7 @@ package com.leetcode.Solution1501_1600.Solution1541_1550;
 /**
  * 队列的最大值
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-07 00:02
  */
 public class MaxQueue_1548 {

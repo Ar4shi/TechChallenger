@@ -3,7 +3,7 @@ package com.leetcode.Solution1301_1400.Solution1391_1400;
 /**
  * 字符串压缩
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-16 00:14
  */
 public class CompressStringLCCI_1394 {

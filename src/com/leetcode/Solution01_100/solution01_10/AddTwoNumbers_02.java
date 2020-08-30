@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution01_10;
 /**
  * 两数相加
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-14 21:14
  */
 public class AddTwoNumbers_02 {

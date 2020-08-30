@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution21_30;
 /**
  * 删除排序数组中的重复项
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-07-01 13:31
  */
 public class RemoveDuplicates_26 {

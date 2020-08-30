@@ -3,7 +3,7 @@ package com.leetcode.Solution1001_1100.Solution1071_1080;
 /**
  * 字符串的最大公因子
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-12 00:47
  */
 public class GreatestCommonDivisorOfStrings_1071 {

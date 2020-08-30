@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 多数元素
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-13 00:42
  */
 public class MajorityElement_169 {

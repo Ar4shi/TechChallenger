@@ -3,7 +3,7 @@ package DataStructure.Tree.ArrayBinaryTree;
 /**
  * 顺序存储二叉树Demo
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-10-10 15:25
  */
 public class ArrayBinaryTreeDemo {

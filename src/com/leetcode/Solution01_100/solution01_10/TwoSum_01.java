@@ -8,7 +8,7 @@ import java.util.HashMap;
  * hashmap根据Key生成hashcode，重复的hashcode会以链表的形式挂载在同一个arraylist下.
  * containkey方法根据key生成hashcode转化为arraylist的数组下标，若冲突再根据挂载在arraylist下linkedlist找到对应的值，所以在不冲突的情况下复杂度位O(1)最小期望为O（n）
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-12 19:05
  */
 public class TwoSum_01 {

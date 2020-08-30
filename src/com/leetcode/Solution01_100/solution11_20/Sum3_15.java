@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 三数之和
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-26 11:01
  */
 public class Sum3_15 {

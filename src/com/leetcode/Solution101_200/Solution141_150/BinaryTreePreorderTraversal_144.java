@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 二叉树的前序遍历
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-06 13:33
  */
 public class BinaryTreePreorderTraversal_144 {

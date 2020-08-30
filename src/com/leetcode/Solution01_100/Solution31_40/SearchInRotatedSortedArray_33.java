@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.Solution31_40;
 /**
  * 搜索旋转排序数组
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-02-27 11:15
  */
 public class SearchInRotatedSortedArray_33 {

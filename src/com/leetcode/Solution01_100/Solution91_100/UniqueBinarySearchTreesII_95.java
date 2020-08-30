@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 不同的二叉搜索树 II
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-03 22:56
  */
 public class UniqueBinarySearchTreesII_95 {

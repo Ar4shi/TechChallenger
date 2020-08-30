@@ -3,7 +3,7 @@ package DataStructure.Tree.BinaryTree;
 /**
  * 二叉树demo
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-10-09 16:02
  */
 public class BinaryTreeDemo {

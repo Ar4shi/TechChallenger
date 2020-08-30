@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 全排列
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-02-05 15:53
  */
 public class Permutations_46 {

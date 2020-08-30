@@ -11,7 +11,7 @@ import java.util.Queue;
  * 由于每次腐化需要用到上一次腐化的状态
  * 所以记录上一次的状态用于下一次计算
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-04 10:58
  */
 public class RottingOranges_994 {

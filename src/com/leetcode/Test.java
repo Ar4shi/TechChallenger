@@ -6,7 +6,7 @@ import com.leetcode.Solution01_100.solution21_30.FindSubstring_30;
 /**
  * 测试类
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-14 21:15
  */
 public class Test {

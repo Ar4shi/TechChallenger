@@ -5,7 +5,7 @@ import com.leetcode.TreeNode;
 /**
  * 平衡二叉树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-09 14:55
  */
 public class BalancedBinaryTree_110 {

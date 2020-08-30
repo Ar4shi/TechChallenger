@@ -5,7 +5,7 @@ import com.leetcode.ListNode;
 /**
  * 删除链表的倒数第N个节点
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-27 09:33
  */
 public class RemoveNthFromEnd_19 {

@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution11_20;
 /**
  * 盛最多水的容器
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-25 10:18
  */
 public class MostWater_11 {

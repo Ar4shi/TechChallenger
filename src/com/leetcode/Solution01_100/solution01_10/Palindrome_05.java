@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution01_10;
 /**
  * 最长回文子串
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-17 19:00
  */
 public class Palindrome_05 {

@@ -3,7 +3,7 @@ package com.leetcode.Solution301_400.Solution331_340;
 /**
  * 请输入类注释
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-08 02:20
  */
 public class CoinChange_322 {

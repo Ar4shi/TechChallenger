@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * 相同的树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-05 10:26
  */
 public class SameTree_100 {

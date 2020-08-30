@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 四数之和
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-26 19:45
  */
 public class Sum4_18 {

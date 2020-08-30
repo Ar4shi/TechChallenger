@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution21_30;
 /**
  * 实现strStr()
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-07-01 14:20
  */
 public class StrStr_28 {

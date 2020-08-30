@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 外观数列
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-02-04 23:10
  */
 public class CountAndSay_38 {

@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * K 个一组翻转链表
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-29 16:29
  */
 public class ReverseKGroup_25 {

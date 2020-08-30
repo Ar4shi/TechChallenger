@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 最接近的三数之和
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-26 15:56
  */
 public class SumClosest_16 {

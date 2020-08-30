@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution01_10;
 /**
  * 字符串转换整数
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-20 16:04
  */
 public class StrToInteger_08 {

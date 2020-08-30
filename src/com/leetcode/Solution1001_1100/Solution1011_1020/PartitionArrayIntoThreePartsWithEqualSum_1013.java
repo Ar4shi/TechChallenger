@@ -3,7 +3,7 @@ package com.leetcode.Solution1001_1100.Solution1011_1020;
 /**
  * 将数组分成和相等的三个部分
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-11 00:07
  */
 public class PartitionArrayIntoThreePartsWithEqualSum_1013 {

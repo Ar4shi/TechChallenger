@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 和为s的连续正数序列
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-06 00:42
  */
 public class FindContinuousSequence_1543 {

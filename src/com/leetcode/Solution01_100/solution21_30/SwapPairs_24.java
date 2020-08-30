@@ -5,7 +5,7 @@ import com.leetcode.ListNode;
 /**
  * 两两交换链表中的节点
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-29 14:13
  */
 public class SwapPairs_24 {

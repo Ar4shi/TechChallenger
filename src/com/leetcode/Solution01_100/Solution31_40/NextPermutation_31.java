@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.Solution31_40;
 /**
  * 下一个排列
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-01-23 16:12
  */
 public class NextPermutation_31 {

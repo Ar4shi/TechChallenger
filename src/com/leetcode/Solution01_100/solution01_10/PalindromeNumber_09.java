@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 回文数
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-23 14:20
  */
 public class PalindromeNumber_09 {

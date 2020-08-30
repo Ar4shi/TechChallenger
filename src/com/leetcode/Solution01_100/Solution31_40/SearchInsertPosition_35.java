@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.Solution31_40;
 /**
  * 搜索插入位置
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-02-04 17:51
  */
 public class SearchInsertPosition_35 {

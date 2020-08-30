@@ -9,7 +9,7 @@ import java.util.Stack;
 /**
  * 二叉树的中序遍历
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-03 00:21
  */
 public class BinaryTreeInorderTraversal_94 {

@@ -3,7 +3,7 @@ package com.leetcode.Solution301_400.Solution361_370;
 /**
  * 请输入类注释
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-21 15:57
  */
 public class WaterAndJugProblem_365 {

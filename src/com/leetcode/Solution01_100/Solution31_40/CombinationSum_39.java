@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 组合总和
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-02-05 14:52
  */
 public class CombinationSum_39 {

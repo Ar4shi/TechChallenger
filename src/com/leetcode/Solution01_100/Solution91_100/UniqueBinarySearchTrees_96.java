@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.Solution91_100;
 /**
  * 不同的二叉搜索树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-04 14:51
  */
 public class UniqueBinarySearchTrees_96 {

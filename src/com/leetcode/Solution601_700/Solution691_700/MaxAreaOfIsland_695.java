@@ -3,7 +3,7 @@ package com.leetcode.Solution601_700.Solution691_700;
 /**
  * 岛屿的最大面积
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-15 01:08
  */
 public class MaxAreaOfIsland_695 {

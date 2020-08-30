@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 最小的k个数
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-20 09:24
  */
 public class LeastNumbers_1538 {

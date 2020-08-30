@@ -8,7 +8,7 @@ import java.util.Queue;
 /**
  * 二叉树的最大深度
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-07 11:29
  */
 public class MaximumDepthOfBinaryTree_104 {

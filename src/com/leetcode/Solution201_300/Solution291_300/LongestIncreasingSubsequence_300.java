@@ -3,7 +3,7 @@ package com.leetcode.Solution201_300.Solution291_300;
 /**
  * 最长上升子序列
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-14 14:49
  */
 public class LongestIncreasingSubsequence_300 {

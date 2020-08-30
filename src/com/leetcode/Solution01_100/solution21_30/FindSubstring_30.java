@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 串联所有单词的子串
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-07-05 14:42
  */
 public class FindSubstring_30 {

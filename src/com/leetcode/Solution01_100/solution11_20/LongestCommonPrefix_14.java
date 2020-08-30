@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution11_20;
 /**
  *  最长公共前缀
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-26 10:34
  */
 public class LongestCommonPrefix_14 {

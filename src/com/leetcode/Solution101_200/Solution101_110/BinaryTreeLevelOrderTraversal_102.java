@@ -10,7 +10,7 @@ import java.util.Queue;
 /**
  * 二叉树的层次遍历
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-05 14:03
  */
 public class BinaryTreeLevelOrderTraversal_102 {

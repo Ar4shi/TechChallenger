@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution21_30;
 /**
  * 移除元素
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-07-01 14:06
  */
 public class RemoveElement_27 {

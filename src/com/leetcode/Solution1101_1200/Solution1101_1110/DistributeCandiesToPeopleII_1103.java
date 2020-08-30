@@ -3,7 +3,7 @@ package com.leetcode.Solution1101_1200.Solution1101_1110;
 /**
  * 分糖果 II
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-05 00:24
  */
 public class DistributeCandiesToPeopleII_1103 {

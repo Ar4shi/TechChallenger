@@ -5,7 +5,7 @@ import com.leetcode.TreeNode;
 /**
  * 对称二叉树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-05 12:14
  */
 public class SymmetricTree_101 {

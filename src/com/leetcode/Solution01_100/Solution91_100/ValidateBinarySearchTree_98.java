@@ -5,7 +5,7 @@ import com.leetcode.TreeNode;
 /**
  * 验证二叉搜索树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-01 14:49
  */
 public class ValidateBinarySearchTree_98 {

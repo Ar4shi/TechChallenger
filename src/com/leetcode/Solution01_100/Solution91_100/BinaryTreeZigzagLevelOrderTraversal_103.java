@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * 二叉树的锯齿形层次遍历
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-11 09:21
  */
 public class BinaryTreeZigzagLevelOrderTraversal_103 {

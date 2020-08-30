@@ -5,7 +5,7 @@ import com.leetcode.TreeNode;
 /**
  * 从前序与中序遍历序列构造二叉树
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-12 17:39
  */
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal_105 {

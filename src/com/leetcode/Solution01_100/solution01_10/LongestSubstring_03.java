@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 无重复字符的最长子串
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-16 20:33
  */
 public class LongestSubstring_03 {

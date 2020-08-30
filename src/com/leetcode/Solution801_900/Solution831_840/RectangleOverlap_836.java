@@ -3,7 +3,7 @@ package com.leetcode.Solution801_900.Solution831_840;
 /**
  * 矩形重叠
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-18 01:14
  */
 public class RectangleOverlap_836 {

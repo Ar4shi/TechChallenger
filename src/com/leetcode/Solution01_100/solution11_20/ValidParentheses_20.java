@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * 有效的括号
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-27 13:40
  */
 public class ValidParentheses_20 {

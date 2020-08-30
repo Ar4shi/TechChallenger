@@ -8,7 +8,7 @@ import java.util.Queue;
 /**
  * 二叉树的直径
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2020-03-10 00:31
  */
 public class DiameterOfBinaryTree_543 {

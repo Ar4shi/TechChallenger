@@ -3,7 +3,7 @@ package com.leetcode.Solution01_100.solution21_30;
 /**
  * 两数相除
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-07-01 15:55
  */
 public class DivideTwoIntegers_29 {

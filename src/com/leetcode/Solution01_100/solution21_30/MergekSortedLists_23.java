@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 /**
  * 合并K个排序链表
  *
- * @author jianghanh
+ * @author jianghan
  * @date 2019-06-28 09:27
  */
 public class MergekSortedLists_23 {
