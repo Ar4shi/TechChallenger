@@ -10,36 +10,28 @@ import java.util.List;
  * @date 2020-02-05 14:52
  */
 public class CombinationSum_39 {
+    List<List<Integer>> result = new ArrayList<>();
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<Integer> list = new ArrayList<Integer>();
-        List<List<Integer>> result = iterationMethod(candidates,target,0,list);
+        recursion(0, candidates, target, new ArrayList<>());
         return result;
     }
 
-    /**
-     * 迭代方法
-     */
-    private List<List<Integer>> iterationMethod(int[] candidates,int newTarget,int index,List<Integer> list){
-        List<List<Integer>> results = new ArrayList<>();
-        //迭代器出口1
-        if(index>=candidates.length){
-
-        }else{
-            if(candidates[index]<newTarget){
-                list.add(candidates[index]);
-                iterationMethod(candidates,newTarget-candidates[index],0,list);//由于可以重复,从0下标开始重读
-            }else if(candidates[index]==newTarget){//迭代器出口2
-                list.add(candidates[index]);
-                results.add(list);
-            }else{
-                iterationMethod(candidates,newTarget,index+1,list);
-            }
+    private void recursion(int start, int[] candidates, int target, List<Integer> list) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            result.add(new ArrayList<>(list));
         }
-        return results;
+        for (int i = start; i < candidates.length; i++) {
+            list.add(candidates[i]);
+            recursion(i, candidates, target - candidates[i], list);
+            list.remove(list.size() - 1);
+        }
     }
 
     public static void main(String[] args) {
         CombinationSum_39 combinationSum_39 = new CombinationSum_39();
-        combinationSum_39.combinationSum(new int[]{2,3,6,7},7);
+        combinationSum_39.combinationSum(new int[]{2, 3, 6, 7}, 7);
     }
 }
