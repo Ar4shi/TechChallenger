@@ -1,4 +1,4 @@
-package com.leetcode.Solution401_500;
+package com.leetcode.Solution401_500.Solution481_490;
 
 import java.util.List;
 
