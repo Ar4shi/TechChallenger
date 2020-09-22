@@ -9,7 +9,11 @@ import com.leetcode.TreeNode;
  * @date 2020-03-12 17:39
  */
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal_105 {
+    int[] preorder;
+    int[] inorder;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
+        this.preorder = preorder;
+        this.inorder = inorder;
         return null;
     }
 }
