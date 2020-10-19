@@ -35,6 +35,7 @@ public class ReorderList_143 {
             list.get(right).next = list.get(left);
             right--;
         }
+        //解开循环链表
         list.get(left).next = null;
         head = list.get(0);
     }
