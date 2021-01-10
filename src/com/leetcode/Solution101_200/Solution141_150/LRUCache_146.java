@@ -47,6 +47,7 @@ public class LRUCache_146 {
         if (this.get(key) != -1) {
             Node existNode = cache.get(key);
             existNode.value = value;
+            //这个return折磨了我一个小时
             return;
         }
         Node node = new Node(key, value);
