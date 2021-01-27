@@ -15,8 +15,8 @@ public class HouseRobberIII_337 {
     public int rob(TreeNode root) {
         if (root == null) return 0;
         Map<TreeNode, int[]> map = new HashMap<>();
-        dfs(root.left, root, map);
-        dfs(root.right, root, map);
+        dfs(root.left, map);
+        dfs(root.right, map);
         //root节点最后进行合并
         int[] result = new int[2];
         //根节点不偷 子节点可以偷也可以不偷 取最大值
@@ -32,12 +32,12 @@ public class HouseRobberIII_337 {
      * 因为父节点的最大值由其孩子节点决定
      * 所以按后序遍历二叉树
      */
-    private void dfs(TreeNode currentNode, TreeNode parentNode, Map<TreeNode, int[]> map) {
+    private void dfs(TreeNode currentNode, Map<TreeNode, int[]> map) {
         if (currentNode == null) {
             return;
         }
-        dfs(currentNode.left, currentNode, map);
-        dfs(currentNode.right, currentNode, map);
+        dfs(currentNode.left, map);
+        dfs(currentNode.right, map);
         //0代表不偷 1代表偷
         int[] currentResult = new int[2];
         int[] left = map.get(currentNode.left) == null ? new int[]{0, 0} : map.get(currentNode.left);
