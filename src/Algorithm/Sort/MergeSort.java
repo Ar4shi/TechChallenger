@@ -54,25 +54,17 @@ public class MergeSort {
         //这个条件保证了左右两个数组中都有数据,如果有一个没有了那就可以直接填进temp了
         while (s1 <= mid && s2 <= right) {
             if (array[s1] <= array[s2]) {
-                temp[index] = array[s1];
-                index++;
-                s1++;
+                temp[index++] = array[s1++];
             } else {
-                temp[index] = array[s2];
-                index++;
-                s2++;
+                temp[index++] = array[s2++];
             }
         }
         //出来后,如果数组中还有元素,就全部塞进去
         while (s1 <= mid) {
-            temp[index] = array[s1];
-            index++;
-            s1++;
+            temp[index++] = array[s1++];
         }
         while (s2 <= right) {
-            temp[index] = array[s2];
-            index++;
-            s2++;
+            temp[index++] = array[s2++];
         }
         //把temp中的数据回写到源数组中
         for (int i = 0; i < right - left + 1; i++) {
