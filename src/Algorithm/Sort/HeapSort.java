@@ -58,7 +58,7 @@ public class HeapSort {
     private void heapify(int[] array, int i, int length) {
         //其实可以不需要这个出口
         //left < length 和 right < length其实已经包含了这个出口了
-        //还是写了这个条件算是个习惯,递归出口前置总没有错
+        //还是写了这个条件算是个人习惯,递归出口前置总没有错
         if (i >= length) {
             return;
         }
