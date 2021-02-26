@@ -64,6 +64,7 @@ public class HeapSort {
         }
         //最大值索引默认为i
         int max = i;
+        //加号的优先级比位运算要高
         int left = (i << 1) + 1;
         int right = (i << 1) + 2;
         //计算三个数最大值的下标
