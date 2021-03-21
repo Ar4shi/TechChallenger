@@ -11,14 +11,22 @@ public class Exist_12 {
     String word;
     boolean result = false;
 
+    /**
+     * 怎么剪枝效率都差不多
+     * 放弃了
+     */
     public boolean exist(char[][] board, String word) {
         this.board = board;
         this.word = word;
         for (int i = 0; i < board.length; i++) {
+            if (result) {
+                break;
+            }
             for (int j = 0; j < board[i].length; j++) {
-                if (!result) {
-                    recursion(i, j, new int[board.length][board[i].length], 0);
+                if (result) {
+                    break;
                 }
+                recursion(i, j, new int[board.length][board[i].length], 0);
             }
         }
         return result;
