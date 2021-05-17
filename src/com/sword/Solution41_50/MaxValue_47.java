@@ -9,9 +9,9 @@ package com.sword.Solution41_50;
 public class MaxValue_47 {
     public int maxValue(int[][] grid) {
         //dp[i][j] 代表当取数到达 i j 对应坐标所能获取的最大价值
-        //dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1])
+        //dp[i][j] = Math.max(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])
         int[][] dp = new int[grid.length][grid[0].length];
-        //initial dp
+        //initialize dp
         dp[0][0] = grid[0][0];
         //dp遍历模板
         for (int i = 0; i < grid.length; i++) {
