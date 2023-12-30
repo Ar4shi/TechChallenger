@@ -1,7 +1,7 @@
 package Algorithm.Sort;
 
 /**
- * 冒泡排序
+ * 冒泡 排序
  * 稳定的排序
  * 时间复杂度 O(n^2)
  *
