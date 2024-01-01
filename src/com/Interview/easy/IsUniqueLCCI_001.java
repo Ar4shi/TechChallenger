@@ -1,4 +1,4 @@
-package com.Interview;
+package com.Interview.easy;
 
 public class IsUniqueLCCI_001 {
 
