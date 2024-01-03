@@ -9,9 +9,11 @@ package com.leetcode;
 public class ListNode {
     public int val;
     public ListNode next;
+    public ListNode current;
 
     public ListNode(int x) {
         val = x;
+        current = this;
     }
 
     public ListNode(Integer[] nums) {
@@ -41,5 +43,14 @@ public class ListNode {
         s.append("NULL");
         System.out.println(s.toString());
         return s.toString();
+    }
+
+    /**
+     * 链式构建
+     */
+    public ListNode bulidNext(int nextValue) {
+        ListNode next = new ListNode(nextValue);
+        current.next = next;
+        return current.next;
     }
 }
