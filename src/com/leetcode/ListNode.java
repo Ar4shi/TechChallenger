@@ -48,9 +48,18 @@ public class ListNode {
     /**
      * 链式构建
      */
-    public ListNode bulidNext(int nextValue) {
+    public ListNode buildNext(int nextValue) {
         ListNode next = new ListNode(nextValue);
         current.next = next;
         return current.next;
+    }
+
+    /**
+     * 将链表中的某个节点切出来返回，并将连接原始链表
+     */
+    private ListNode cutAndConnectNode(ListNode preNode, ListNode currentNode) {
+        preNode.next = currentNode.next;
+        currentNode.next = null;
+        return currentNode;
     }
 }
