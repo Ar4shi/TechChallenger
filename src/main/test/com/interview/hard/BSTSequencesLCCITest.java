@@ -3,7 +3,7 @@ package com.interview.hard;
 import com.leetcode.TreeNode;
 import org.junit.Test;
 
-public class BSTSequencesLCCI_Test {
+public class BSTSequencesLCCITest {
 
     @Test
     public void test() {

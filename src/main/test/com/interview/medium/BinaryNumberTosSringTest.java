@@ -2,7 +2,7 @@ package com.interview.medium;
 
 import org.junit.Test;
 
-public class BinaryNumberToString_Test {
+public class BinaryNumberTosSringTest {
 
     @Test
     public void test(){
