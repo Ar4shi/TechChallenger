@@ -30,7 +30,7 @@ public class Coin {
     int[] coins = {25, 10, 5, 1};
 
     /**
-     * 0,1 背包 + 完全背包
+     * 01 背包 + 完全背包
      */
     public int waysToChange(int n) {
         int[] dp = new int[n + 1];
