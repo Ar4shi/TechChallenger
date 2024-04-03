@@ -29,6 +29,7 @@ public class PileBox {
             // 只有排在前面的箱子才有可能在当前的箱子上面
             for (int j = 0; j < i; j++) {
                 if (box[i][0] > box[j][0] && box[i][1] > box[j][1] && box[i][2] > box[j][2]) {
+                    // 不能用dp[i] = Math.max(dp[i], dp[j] + box[i][2]),因为dp[j]可能是0,dp[j]为0代表第j个箱子不能放在第i个箱子上面
                     dp[i] = Math.max(dp[i], dp[j]);
                 }
             }
