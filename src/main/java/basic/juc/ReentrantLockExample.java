@@ -1,4 +1,4 @@
-package com.study.juc;
+package basic.juc;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,16 +14,5 @@ public class ReentrantLockExample {
         } finally {
             lock.unlock();  // 无论如何都要释放锁
         }
-    }
-
-    public static void main(String[] args) {
-        ReentrantLockExample example = new ReentrantLockExample();
-
-        // 创建两个线程，模拟并发访问
-        Thread t1 = new Thread(example::accessSharedResource, "Thread-1");
-        Thread t2 = new Thread(example::accessSharedResource, "Thread-2");
-
-        t1.start();
-        t2.start();
     }
 }

@@ -1,4 +1,4 @@
-package DataStructure.Tree.ThreadedBinaryTree;
+package DataStructure.tree.threadedBinaryTree;
 
 /**
  * 线索化二叉树Demo

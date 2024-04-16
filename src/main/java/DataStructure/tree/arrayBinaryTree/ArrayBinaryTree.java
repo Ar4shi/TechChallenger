@@ -1,4 +1,4 @@
-package DataStructure.Tree.ArrayBinaryTree;
+package DataStructure.tree.arrayBinaryTree;
 
 /**
  * 顺序存储二叉树

@@ -1,4 +1,4 @@
-package DataStructure.Tree.BinaryTree;
+package DataStructure.tree.binaryTree;
 
 /**
  * 二叉树

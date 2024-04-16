@@ -1,18 +1,21 @@
-package DataStructure.Tree.BinaryTree;
+package DataStructure.tree.threadedBinaryTree;
 
 /**
- * 二叉树结点
+ * 线索化二叉树结点
  *
  * @author jianghan
  * @date 2019-10-09 15:39
  */
-public class BinaryTreeNode {
+public class ThreadedBinaryTreeNode {
     private int number;
     private String name;
-    private BinaryTreeNode leftNode;
-    private BinaryTreeNode rightNode;
+    private ThreadedBinaryTreeNode leftNode;
+    private ThreadedBinaryTreeNode rightNode;
+    //规定type=1则指向线索化节点 type=0则指向二叉树的逻辑节点，默认为0
+    private int leftType;
+    private int rightType;
 
-    public BinaryTreeNode(int number, String name) {
+    public ThreadedBinaryTreeNode(int number, String name) {
         this.number = number;
         this.name = name;
     }
@@ -60,11 +63,11 @@ public class BinaryTreeNode {
     /**
      * 前序查找
      */
-    public BinaryTreeNode preOrderSearch(int no){
+    public ThreadedBinaryTreeNode preOrderSearch(int no){
         if(this.number==no){
             return this;
         }
-        BinaryTreeNode resultNode = null;
+        ThreadedBinaryTreeNode resultNode = null;
         if(this.leftNode!=null){
             resultNode = this.leftNode.preOrderSearch(no);
         }
@@ -81,8 +84,8 @@ public class BinaryTreeNode {
     /**
      * 中序查找
      */
-    public BinaryTreeNode infixOrderSearch(int no){
-        BinaryTreeNode resultNode = null;
+    public ThreadedBinaryTreeNode infixOrderSearch(int no){
+        ThreadedBinaryTreeNode resultNode = null;
         if(this.leftNode!=null){
             resultNode = this.leftNode.infixOrderSearch(no);
         }
@@ -104,8 +107,8 @@ public class BinaryTreeNode {
     /**
      * 后序查找
      */
-    public BinaryTreeNode postOrderSearch(int no){
-        BinaryTreeNode resultNode = null;
+    public ThreadedBinaryTreeNode postOrderSearch(int no){
+        ThreadedBinaryTreeNode resultNode = null;
         if(this.leftNode!=null){
             resultNode = this.leftNode.postOrderSearch(no);
         }
@@ -163,20 +166,36 @@ public class BinaryTreeNode {
         this.name = name;
     }
 
-    public BinaryTreeNode getLeftNode() {
+    public ThreadedBinaryTreeNode getLeftNode() {
         return leftNode;
     }
 
-    public void setLeftNode(BinaryTreeNode leftNode) {
+    public void setLeftNode(ThreadedBinaryTreeNode leftNode) {
         this.leftNode = leftNode;
     }
 
-    public BinaryTreeNode getRightNode() {
+    public ThreadedBinaryTreeNode getRightNode() {
         return rightNode;
     }
 
-    public void setRightNode(BinaryTreeNode rightNode) {
+    public void setRightNode(ThreadedBinaryTreeNode rightNode) {
         this.rightNode = rightNode;
+    }
+
+    public int getLeftType() {
+        return leftType;
+    }
+
+    public void setLeftType(int leftType) {
+        this.leftType = leftType;
+    }
+
+    public int getRightType() {
+        return rightType;
+    }
+
+    public void setRightType(int rightType) {
+        this.rightType = rightType;
     }
 
     @Override
