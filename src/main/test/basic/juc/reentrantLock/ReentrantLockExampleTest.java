@@ -1,4 +1,4 @@
-package basic.juc;
+package basic.juc.reentrantLock;
 
 import org.junit.Test;
 
