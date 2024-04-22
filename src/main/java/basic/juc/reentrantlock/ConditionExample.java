@@ -1,4 +1,4 @@
-package basic.juc.reentrantLock;
+package basic.juc.reentrantlock;
 
 import java.util.LinkedList;
 import java.util.concurrent.locks.Condition;

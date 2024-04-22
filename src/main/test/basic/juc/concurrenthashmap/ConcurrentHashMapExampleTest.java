@@ -1,6 +1,5 @@
-package basic.juc.concurrenthashMap;
+package basic.juc.concurrenthashmap;
 
-import basic.juc.concurrenthashmap.ConcurrentHashMapExample;
 import org.junit.Test;
 
 public class ConcurrentHashMapExampleTest {
