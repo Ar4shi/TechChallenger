@@ -1,5 +1,7 @@
 package com.leetcode.Solution01_100.Solution41_50;
 
+import java.util.Stack;
+
 /**
  * 接雨水
  *
@@ -8,7 +10,7 @@ package com.leetcode.Solution01_100.Solution41_50;
  */
 public class TrappingRainWater_42 {
     public int trap(int[] height) {
-        return basicSolution(height);
+        return monotonicStack(height);
     }
 
     /**
@@ -49,7 +51,27 @@ public class TrappingRainWater_42 {
      * 观察到方法一中的maxLeft和maxRight数组可以通过双指针的方式来维护,即只要保存左右两边的最大值
      */
     private int twoPointer(int[] height) {
-        return 0;
+        int result = 0;
+        int leftMax = height[0];
+        int rightMax = height[height.length - 1];
+        int left = 1;
+        int right = height.length - 2;
+        while (left <= right) {
+            if (leftMax < rightMax) {
+                if (leftMax > height[left]) {
+                    result += leftMax - height[left];
+                }
+                leftMax = Math.max(leftMax, height[left]);
+                left++;
+            } else {
+                if (rightMax > height[right]) {
+                    result += rightMax - height[right];
+                }
+                rightMax = Math.max(rightMax, height[right]);
+                right--;
+            }
+        }
+        return result;
     }
 
     /**
@@ -57,6 +79,22 @@ public class TrappingRainWater_42 {
      * 单调栈
      */
     private int monotonicStack(int[] height) {
-        return 0;
+        int result = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < height.length; i++) {
+            while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
+                int index = stack.pop();
+                if (stack.isEmpty()) {
+                    break;
+                }
+                int preIndex = stack.peek();
+                // 高度差 = min(当前柱子高度,前前柱子高度) - 之前柱子高度
+                int heightDiff = Math.min(height[i], height[preIndex]) - height[index];
+                int widthDiff = i - preIndex - 1;
+                result += heightDiff * widthDiff;
+            }
+            stack.add(i);
+        }
+        return result;
     }
 }
