@@ -31,14 +31,14 @@ public class BinaryTreeInorderTraversal_94 {
     /**
      * 递归方式实现中序遍历
      */
-    private List<Integer> recurrence(TreeNode root,List<Integer> resultList){
+    private List<Integer> recurrence(TreeNode root, List<Integer> resultList) {
 
-        if(root==null){
+        if (root == null) {
             return resultList;
-        }else {
-            recurrence(root.left,resultList);
+        } else {
+            recurrence(root.left, resultList);
             resultList.add(root.val);
-            recurrence(root.right,resultList);
+            recurrence(root.right, resultList);
             return resultList;
         }
 
@@ -51,19 +51,18 @@ public class BinaryTreeInorderTraversal_94 {
      * 2、继续出栈压入线性表
      * 3、递归调用步骤【1】的操作直至栈为空且当前节点为null
      */
-    private List<Integer> Dfs(TreeNode root){
+    private List<Integer> Dfs(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> resultList = new ArrayList<>();
 
-        while(stack.size()>0||root!=null){
-            if(root!=null){
+        while (stack.size() > 0 || root != null) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
-            }else{
-                TreeNode node = stack.pop();
-                resultList.add(node.val);
-                root = node.right;
             }
+            root = stack.pop();
+            resultList.add(root.val);
+            root = root.right;
         }
 
         return resultList;
